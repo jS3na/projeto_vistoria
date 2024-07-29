@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734892396568",
+    "project_id": "pavcon-vistoria",
+    "storage_bucket": "pavcon-vistoria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734892396568:android:2e2f877a109896f6c4b36d",
+        "android_client_info": {
+          "package_name": "com.pavcon.vistveicul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8DrSljepnV2-pD0Bysi7dfbNhdCQechs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

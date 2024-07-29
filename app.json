@@ -2,6 +2,32 @@
   "expo": {
     "name": "projeto_vistoria",
     "slug": "projeto_vistoria",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "92ce911c-02ff-4571-90b8-e7dab9c8bb55"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.pavcon.vistveicul"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.pavcon.vistveicul"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
   }
 }
